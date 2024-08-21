@@ -5,7 +5,7 @@ import { removeTodo } from '../Features/todo/todoSlice' // Importing the removeT
 // Defining the Todo component
 function Todo() {
     // Using useSelector to get the todos from the state
-    const todos = useSelector((state) => state.todo.todo)  // Corrected path to access the todos in the state
+    const todos = useSelector((state) => state.todo.todo)  
     // Using useDispatch to get the dispatch function from the store
     const dispatch = useDispatch()
 
